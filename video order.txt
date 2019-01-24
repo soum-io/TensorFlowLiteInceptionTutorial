@@ -1,0 +1,31 @@
+start: create app called InceptionTutorial, with activities ChooseModel and Classify
+1. Update adnroid manifest
+2. update second gradle file
+3. update styles.xmlto not include action bar
+4. add assets folder
+5. Download inception and inception quant
+   - https://www.tensorflow.org/lite/models
+   - do V3
+6. extract and rename the models to the following and add to the assets folder
+	- inception_quant.tflite
+	- inception_float.tflite
+7. create txt file in assets called labels.txt
+8. get label list and copy into local version
+   - https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/examples/android/app/src/main/assets/labels_mobilenet_quant_v1_224.txt
+4. update activity_choose_model.xml
+	- make relative layout instead of contrained
+	- add to buttons
+		- inception float
+		- inception quantized
+5. update chooseModel.java
+6. update Classify.xml
+	- make relative layout instead of contrained
+7. Update Classify.java
+	- got img dim size from 
+          https://github.com/googlecodelabs/tensorflow-for-poets-2/blob/master/scripts/retrain.py
+
+
+TensorFlowLiteInceptionTutorial
+Tutorial on how to deploy the Inception Model to Android using TensorFlow Lite (both the float version and the quantized version).
+
+
