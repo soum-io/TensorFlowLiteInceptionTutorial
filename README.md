@@ -4,5 +4,5 @@ Tutorial on how to deploy the Inception Model to Android using TensorFlow Lite (
 
 DEMO:
 
-![20%](demo.gif)
+![](demo.gif)
 
