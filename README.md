@@ -7,11 +7,8 @@ DEMO:
 <img src="demo.gif" width="300">
 
 ## BUILD/INSTALLATION INSTRUCTIONS
-  * Clone repo locally and open project in Android Studio
-
-## Contributor Guide
-[Link to _CONTRIBUTERS.md_](CONTRIBUTERS.md)
-
+  * Clone repo locally, then open and build project in Android Studio.
+  
 ## MIT License
 Copyright 2019 Michael Shea
 
